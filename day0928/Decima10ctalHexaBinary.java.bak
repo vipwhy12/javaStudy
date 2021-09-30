@@ -1,0 +1,35 @@
+class Decima10ctalHexaBinary 
+{
+	public static void main(String[] args) 
+	{
+		int a = 12;
+		int b = 014;
+		int c = 0xc;
+
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+}
+
+
+
+/*
+8   10	16
+---------------------------------------
+0	0	0
+1	1	1	
+2	2	2
+3	3	3
+4	4	4	
+5	5	5	
+6	6	6
+7	7	7	
+10	8	8
+11	9	9
+12	10	A
+13	11	B	
+14	12
+
+! 자바에서 8진수 표현시 앞에 숫자 '0'을 붙여 표현하기 
+*/
